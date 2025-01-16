@@ -1,5 +1,5 @@
 
-# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/1474/1474155.png"> Gamer App - Jetpack Compose
+# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://github.com/user-attachments/assets/a67447b2-0c5b-443a-8b1e-35916e252621"> Gamer App - Jetpack Compose
 
 <div align="center">
 </div>
