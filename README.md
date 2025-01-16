@@ -21,7 +21,7 @@ Github App
 
  </div>
 
-## 🖥 Preview (Em Andamento)
+## 🖥 Preview 
 
 <div align="center">
 
