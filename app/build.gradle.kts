@@ -84,27 +84,27 @@ dependencies {
     implementation(libs.coil)
 
     // Unit Testing
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
-    testImplementation("androidx.arch.core:core-testing:2.2.0")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
-    testImplementation("org.mockito:mockito-inline:5.0.0")
-    testImplementation("com.google.truth:truth:1.1.5")
-    testImplementation("androidx.room:room-testing:2.5.2")
-    testImplementation("com.squareup.retrofit2:retrofit-mock:2.9.0")
+    testImplementation(libs.junit.jupiter)
+    testImplementation(libs.androidx.core.testing)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.mockito.inline)
+    testImplementation(libs.truth)
+    testImplementation(libs.androidx.room.testing)
+    testImplementation(libs.retrofit.mock)
 
 
     // Instrumentation Testing
-    androidTestImplementation("androidx.arch.core:core-testing:2.2.0")
-    androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.6.8")
-    androidTestImplementation("com.google.truth:truth:1.1.5")
+    androidTestImplementation(libs.androidx.core.testing)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
+    androidTestImplementation(libs.androidx.junit.v115)
+    androidTestImplementation(libs.androidx.espresso.core.v351)
+    androidTestImplementation(libs.androidx.ui.test.junit4)
+    androidTestImplementation(libs.truth)
 
 
     // Debug
-    debugImplementation("androidx.compose.ui:ui-tooling:1.6.8")
-    debugImplementation("androidx.compose.ui:ui-test-manifest:1.6.8")
+    debugImplementation(libs.androidx.ui.tooling)
+    debugImplementation(libs.androidx.ui.test.manifest)
 }
 
