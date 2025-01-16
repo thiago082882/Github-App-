@@ -64,6 +64,8 @@ O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 -Coil
 -Paging 3
 
+
+
 ---
 
 ## 🚀 Biliotecas utilizadas
