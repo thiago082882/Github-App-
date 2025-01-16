@@ -1,5 +1,6 @@
 
-# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/1474/1474155.png"> Gamer App - Jetpack Compose
+# <img align="center" alt="Daniel-HTML" height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/1474/1474155.png"> 
+Github App
 
 <div align="center">
 </div>
@@ -41,9 +42,9 @@
 
 ## 📖 Sobre
 
-Desenvolvimento nativo Android usando Clean Architecture  MVVM usando Jetpack Compose em conjunto com Firebase , Dependency Injection e Coroutines.
+Desenvolvimento de Aplicativo Nativo Android com API do GitHub
 
-Este projeto foi desenvolvido durante minha jornada de estudos, com intuito de aprimorar os conhecimentos em desenvolvimento de android nativo.
+Aplicativo Android nativo desenvolvido com Kotlin, utilizando Clean Architecture e MVVM para garantir modularidade e manutenibilidade. Foram aplicadas tecnologias como Coroutines para operações assíncronas, Dependency Injection para gerenciamento de dependências e Paging 3 para paginação eficiente. O projeto integrou a API do GitHub com suporte a carregamento dinâmico e interface otimizada, incluindo o uso da API Splash Screen para aprimorar a experiência do usuário. Desenvolvido como parte de um desafio técnico, o projeto reforçou práticas modernas de desenvolvimento, estruturação de código limpo e integração com bibliotecas do ecossistema Android.
 
 
 ## 🚀 Ferramentas utilizadas
