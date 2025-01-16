@@ -60,11 +60,10 @@ O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 - Lógica de Programação
 - ViewBinding
 - RecyclerView
+- Coil
+- Paging 3
 - Inyeccion de dependencias (Koin)
--Coil
--Paging 3
-
-
+- Fragment navigation
 
 ---
 
@@ -72,9 +71,21 @@ O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 
 O projeto foi desenvolvido utilizando as seguintes bibliotecas:
 
-- https://developer.android.com/jetpack/compose/navigation?hl=pt-br
-- https://developer.android.com/training/dependency-injection/hilt-android?hl=pt-br#kts
-- https://console.firebase.google.com/?hl=pt&pli=1
+   https://developer.android.com/jetpack/androidx/releases/navigation
+   https://developer.android.com/jetpack/androidx/releases/lifecycle
+   https://developer.android.com/jetpack/androidx/releases/recyclerview
+   https://developer.android.com/jetpack/androidx/releases/constraintlayout
+   https://github.com/material-components/material-components-android/releases
+   https://developer.android.com/jetpack/androidx/releases/fragment
+   https://developer.android.com/jetpack/androidx/releases/activity
+   https://developer.android.com/jetpack/androidx/releases/appcompat
+   https://developer.android.com/jetpack/androidx/releases/core
+   https://developer.android.com/jetpack/androidx/releases/paging
+   https://github.com/square/retrofit/tags
+   https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor
+   https://github.com/google/gson/releases
+   https://github.com/coil-kt/coil/releases
+   https://github.com/InsertKoinIO/koin
 
 
 ---
