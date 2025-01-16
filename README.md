@@ -15,7 +15,7 @@
 
 <div align="center">
 
-<img src="11zon_created-GIF](https://github.com/user-attachments/assets/a80972c7-c9d9-4027-a97a-479e49a5c120" width="300">
+<img src="https://github.com/user-attachments/assets/a80972c7-c9d9-4027-a97a-479e49a5c120" width="300">
 
 
  </div>
