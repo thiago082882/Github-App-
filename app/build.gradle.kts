@@ -42,9 +42,7 @@ android {
     }
 
 }
-
 dependencies {
-
     // Core
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -54,15 +52,14 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    //Splashscreen
+    // Splashscreen
     implementation(libs.androidx.core.splashscreen)
-
 
     // Lifecycle
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
-    //Pagination
+    // Pagination
     implementation(libs.androidx.paging.runtime.ktx)
 
     // Navigation
@@ -86,8 +83,28 @@ dependencies {
     // Image Loading
     implementation(libs.coil)
 
-    //Testing
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    // Unit Testing
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
+    testImplementation("org.mockito:mockito-inline:5.0.0")
+    testImplementation("com.google.truth:truth:1.1.5")
+    testImplementation("androidx.room:room-testing:2.5.2")
+    testImplementation("com.squareup.retrofit2:retrofit-mock:2.9.0")
+
+
+    // Instrumentation Testing
+    androidTestImplementation("androidx.arch.core:core-testing:2.2.0")
+    androidTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.6.8")
+    androidTestImplementation("com.google.truth:truth:1.1.5")
+
+
+    // Debug
+    debugImplementation("androidx.compose.ui:ui-tooling:1.6.8")
+    debugImplementation("androidx.compose.ui:ui-test-manifest:1.6.8")
 }
+
