@@ -90,7 +90,7 @@ O projeto foi desenvolvido utilizando as seguintes bibliotecas:
 ---
 
 ## 🚀 Video
-https://www.linkedin.com/posts/thiagocostadejesus_androiddeveloper-kotlin-mvvm-activity-7043246070205689857-LswT?utm_source=share&utm_medium=member_desktop
+https://youtube.com/shorts/CbEFGoCG9ss
 
 ---
 
