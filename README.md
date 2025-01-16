@@ -15,7 +15,7 @@
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/93166095/226715310-6c47a646-2eb7-4a84-a6e5-fd816268c155.gif" width="300">
+<img src="11zon_created-GIF](https://github.com/user-attachments/assets/a80972c7-c9d9-4027-a97a-479e49a5c120" width="300">
 
 
  </div>
