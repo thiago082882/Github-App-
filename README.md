@@ -63,6 +63,7 @@ O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 - Paging 3
 - Inyeccion de dependencias (Koin)
 - Fragment navigation
+- Teste unitarios
 
 ---
 
