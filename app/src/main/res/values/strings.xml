@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GitHub App</string>
+
+    // Pull Request Details
+    <string name="error_title">Erro</string>
+    <string name="error_message">Não foi possível recuperar as informações!</string>
+    <string name="retry_button">Tentar Novamente</string>
+    <string name="back_button">Voltar</string>
+    <string name="error_pull_request_state">Ocorreu um erro ao tentar carregar a solicitação pull. Por favor, tente novamente</string>
+
+    //Repository
+    <string name="error_repository_state">Ocorreu um erro ao tentar carregar repositórios. Por favor, tente novamente</string>
+    <string name="ocorreu_um_erro">Ocorreu um erro</string>
+
+
+</resources>

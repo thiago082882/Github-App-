@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="br.thiago.githubapp.repositories_feature.presentation.screens.home.Home"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_pullRequestDetails"
+            app:destination="@id/pullRequestDetails">
+            <argument
+                android:name="owner"
+                app:argType="string"
+                app:nullable="false" />
+            <argument
+                android:name="repo"
+                app:argType="string"
+                app:nullable="false" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/pullRequestDetails"
+        android:name="br.thiago.githubapp.pullrequest_feature.presentation.screens.pull_request.PullRequestDetails"
+        android:label="Pull Request Details">
+        <argument
+            android:name="owner"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="repo"
+            app:argType="string"
+            app:nullable="false" />
+        <action
+            android:id="@+id/action_pullRequestDetails_to_home"
+            app:destination="@id/home" />
+    </fragment>
+</navigation>
