@@ -52,34 +52,17 @@ Aplicativo Android nativo desenvolvido com Kotlin, utilizando Clean Architecture
 O projeto foi desenvolvido utilizando as seguintes Ferramentas:
 
 - Android Studio
-- Jetpack Compose
 - Clean Architecture
 - Padão MVVM
 - Coroutines
 - Kotlin
 - Flow
 - Lógica de Programação
-- Firebase Firestore
+- ViewBinding
 - RecyclerView
-- Firebase Authentication
-- Firebase (Storage)
-- Inyeccion de dependencias (Dagger Hilt)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Inyeccion de dependencias (Koin)
+-Coil
+-Paging 3
 
 ---
 
